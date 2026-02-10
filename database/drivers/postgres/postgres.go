@@ -2,9 +2,9 @@ package drivers
 
 import (
 	"database/sql"
-	"github.com/RikiIhsan/nest/database"
+	"github.com/rikiihsan/nest/database"
 
-	_ "github.com/jackc/pgx/v5/stdlib" // PostgreSQL driver
+	_ "github.com/jackc/pgx/v5/stdlib"
 	"github.com/uptrace/bun"
 	"github.com/uptrace/bun/dialect/pgdialect"
 )

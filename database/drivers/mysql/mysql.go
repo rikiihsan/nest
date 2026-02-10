@@ -2,9 +2,9 @@ package drivers
 
 import (
 	"database/sql"
-	"github.com/RikiIhsan/nest/database"
+	"github.com/rikiihsan/nest/database"
 
-	_ "github.com/go-sql-driver/mysql" // MySQL driver
+	_ "github.com/go-sql-driver/mysql"
 	"github.com/uptrace/bun"
 	"github.com/uptrace/bun/dialect/mysqldialect"
 )

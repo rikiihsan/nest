@@ -3,9 +3,9 @@ package mssql
 import (
 	"database/sql"
 
-	"github.com/RikiIhsan/nest/database"
+	"github.com/rikiihsan/nest/database"
 
-	_ "github.com/microsoft/go-mssqldb" // Driver MSSQL Microsoft (lebih baru)
+	_ "github.com/microsoft/go-mssqldb"
 	"github.com/uptrace/bun"
 	"github.com/uptrace/bun/dialect/mssqldialect"
 )

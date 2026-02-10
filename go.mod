@@ -1,4 +1,4 @@
-module github.com/RikiIhsan/nest
+module github.com/rikiihsan/nest
 
 go 1.25.1
 

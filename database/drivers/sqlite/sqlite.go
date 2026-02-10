@@ -2,9 +2,9 @@ package drivers
 
 import (
 	"database/sql"
-	"github.com/RikiIhsan/nest/database"
+	"github.com/rikiihsan/nest/database"
 
-	_ "github.com/mattn/go-sqlite3" // SQLite driver
+	_ "github.com/mattn/go-sqlite3"
 	"github.com/uptrace/bun"
 	"github.com/uptrace/bun/dialect/sqlitedialect"
 )
